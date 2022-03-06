@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Poppins;
+
+}
+body{
+    background-color: #fbfbfb;
+}
+.back-img{
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("https://img2.mashed.com/img/gallery/the-ultimate-list-of-your-favorite-fast-food-copycat-recipes/l-intro-1603229426.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 480px;
+    width: 1519px;
+}
+.login, .createacc{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.login:hover, .createacc:hover{
+    color: white;
+}
+.createacc{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 181px;
+    height: 46px;
+}
+.logo{
+    display: inline;
+    background-color: white;
+    border-radius: 60%;
+    font-size: 70px;
+    font-weight: 600;
+    color: #eb2929;
+    text-align: center;
+
+    position: absolute;
+    top: 81px;
+    left: 610px;
+    width: 147px;
+    height: 147px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.restaurant-title{
+    font-size: 36px;
+    font-weight: 650;
+    color: #ffffff;
+    position: absolute;
+    top: 250px;
+    left: 305px;
+    width: 805px;
+    height: 51px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.locationDropdown, .restaurantsinput{
+    font-size: 15px;
+    color: #636f88;
+    font-family: system-ui;
+    text-align: left;
+    height: 60px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1; 
+    padding-left: 60px;
+}
+
+.locationSelector{
+    position: absolute;
+    top: 339px;
+    left: 312px;
+    width: 245px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.restaurantSelector{
+    position: absolute;
+    top: 339px;
+    left: 578px;
+    width: 477px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.search-icon{
+    position: absolute;
+    top: 21px;
+    left: 24px;
+    right: 19px;
+    color: #636f88;
+    width: 17px;
+    height: 17px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 0.97;
+}
+
+.bi{
+    vertical-align: revert;
+}
+
+.quick-searches{
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight:900;
+}
+.qs-subtitle{
+    color: #8c96ab;
+    font-size: 18px;
+}
+.card{
+    width: 360px;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    margin: 16px 54px 54px 16px;
+}
+.card-img{
+    height: 160px;
+    border:none;
+    border-radius: 0;
+}
+.card-title{
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: 650;
+}
+.card-description{
+    text-align: left;
+    color: #8c96ab;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+
+@media only screen and (max-width:426px) {
+    .login-signup-row{
+        display:none;
+    }
+    .createacc, .login{
+        font-size: 15px;
+        
+    } 
+    .back-img{
+        background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("https://img2.mashed.com/img/gallery/the-ultimate-list-of-your-favorite-fast-food-copycat-recipes/l-intro-1603229426.jpg");
+        background-attachment: fixed;
+        background-size: contain;
+        height: 480px;
+        width: 435px;
+    }
+    .restaurant-title{
+        font-size: 28px;
+        font-weight: 600;
+        color: #ffffff;
+        position: absolute;
+        top: 177px;
+        left: 29px;
+        width: 370px;
+        height: 75px;
+        text-align: center;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+    .logo{
+        font-size: 42px;
+        display: inline;
+        background-color: white;
+        border-radius: 60%;
+        font-weight: 600;
+        color: #eb2929;
+        text-align: center;
+    
+        position: absolute;
+        top: 59px;
+        left: 164px;
+        width: 90px;
+        height: 90px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+    }
+    .locationSelector{
+        position: absolute;
+        top: 277px;
+        left: 37px;
+        width: 364px;
+        height: 60px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .restaurantSelector{
+        position: absolute;
+        top: 370px;
+        left: 37px;
+        width: 364px;
+        height: 60px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .card{
+        display: inline; 
+        left: 20px; 
+        width: 360px;
+        height: 160px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        border: none;
+        border-radius: 0;
+    }
+}
+@media (max-width:992px) {
+    .min-width {
+        max-width: 960px;
+    }
+    .card{
+        display: inline;
+        width: 400px;
+        height: 160px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        border: none;
+        border-radius: 0;
+    }
+}
